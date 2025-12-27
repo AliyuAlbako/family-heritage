@@ -66,7 +66,7 @@ export function HomePage() {
         }}
       >
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h1 className="text-4xl md:text-6xl mb-6 text-white">Ramalan Descendant Family</h1>
+          <h1 className="text-4xl md:text-6xl mb-6 text-white">Ramalan Descendants</h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
             Preserving our heritage, celebrating our unity, honoring our ancestors
           </p>

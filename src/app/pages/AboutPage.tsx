@@ -8,7 +8,7 @@ export function AboutPage() {
         <div className="mb-16 text-center">
           <h1 className="mb-4">About the Ramalan Family</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our family history, values, and the legacy we continue to build together
+            The Ramalan Descendants is a vibrant forum united by our shared lineage and history.
           </p>
         </div>
 

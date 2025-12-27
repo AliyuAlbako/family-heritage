@@ -29,13 +29,17 @@ export default function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/family-tree" element={<FamilyTreePage />} />
             <Route path="/events" element={<EventsPage />} />
+            <Route path="/family-tree" element={<FamilyTreePage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/stories" element={<StoriesPage />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/directory" element={<DirectoryPage />} />
+            <Route path="/about" element={<AboutPage />} />
+          
+            
+            
+          
           </Routes>
         </main>
         <Footer />
