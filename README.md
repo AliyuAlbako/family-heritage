@@ -1,7 +1,6 @@
 
   # Family Heritage Website Design
 
-  This is a code bundle for Family Heritage Website Design. The original project is available at https://www.figma.com/design/RD38ojIroFdeejX8w5sRcT/Family-Heritage-Website-Design.
 
   ## Running the code
 
