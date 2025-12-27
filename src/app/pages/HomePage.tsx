@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import { TreePine, Calendar, ImageIcon, BookOpen, Newspaper, Users, Info, Heart } from 'lucide-react';
+import familyBg from "../assets/images/family-bg1.jpg";
+
+
 
 export function HomePage() {
   const features = [
@@ -51,9 +54,14 @@ export function HomePage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center py-32 px-4"
+        className="relative bg-cover bg-top pt-53 pb-32 px-4"
         style={{
-          backgroundImage: `linear-gradient(rgba(27, 94, 62, 0.7), rgba(27, 94, 62, 0.7)), url(https://images.unsplash.com/photo-1765248150485-a5efde8d2cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBnYXRoZXJpbmclMjBoZXJpdGFnZXxlbnwxfHx8fDE3NjYzMTIxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080)`,
+          // backgroundImage: `linear-gradient(rgba(27, 94, 62, 0.7), rgba(27, 94, 62, 0.7)), url(https://images.unsplash.com/photo-1765248150485-a5efde8d2cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBnYXRoZXJpbmclMjBoZXJpdGFnZXxlbnwxfHx8fDE3NjYzMTIxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080)`,
+          // backgroundImage: `linear-gradient(rgba(27, 94, 62, 0.7), rgba(27, 94, 62, 0.7)), url(${familyBg})`,
+         backgroundImage: `
+    linear-gradient(
+      rgba(20, 83, 45, 0.6),
+      rgba(20, 83, 45, 0.6)),url(${familyBg})`, backgroundSize: "cover", backgroundPosition: "center",
         }}
       >
         <div className="max-w-4xl mx-auto text-center text-white">
