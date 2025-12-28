@@ -1,50 +1,65 @@
 import { ImageIcon } from 'lucide-react';
+import { Link } from "react-router-dom";
+import img1 from "../assets/images/gallery/img1.jpeg";
+import img2 from "../assets/images/gallery/img2.jpeg";
+import img3 from "../assets/images/gallery/img3.jpeg";
+import img4 from "../assets/images/gallery/img4.jpeg";
+import img5 from "../assets/images/gallery/img5.jpeg";
+import img6 from "../assets/images/gallery/img6.jpeg";
+import img7 from "../assets/images/gallery/img7.jpeg";
+import img8 from "../assets/images/gallery/img8.jpeg";
+import img9 from "../assets/images/gallery/img9.jpeg";
+import img10 from "../assets/images/gallery/img10.jpeg";
+import img11 from "../assets/images/gallery/img11.jpeg";
+import img12 from "../assets/images/gallery/img12.jpeg";
+import img13 from "../assets/images/gallery/img13.jpeg";
+import img14 from "../assets/images/gallery/img14.jpeg";
+import img15 from "../assets/images/gallery/img15.jpeg";
+import img16 from "../assets/images/gallery/img16.jpeg";
+import img17 from "../assets/images/gallery/img17.jpeg";
+import img18 from "../assets/images/gallery/img18.jpeg";
+import img19 from "../assets/images/gallery/img19.jpeg";
+import img20 from "../assets/images/gallery/img20.jpeg";
 
 export function GalleryPage() {
-  const albums = [
-    {
-      id: 1,
-      title: 'Family Reunion 2025',
-      date: 'January 2025',
-      photoCount: 45,
-      coverImage: 'https://images.unsplash.com/photo-1544863308-ae78b44e143c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjByZXVuaW9uJTIwd2FybXxlbnwxfHx8fDE3NjYzMTIxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 2,
-      title: 'Walimah - Ahmad & Siti',
-      date: 'December 2024',
-      photoCount: 120,
-      coverImage: 'https://images.unsplash.com/photo-1765990153175-38d1a875be65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGZhbWlseSUyMGNlbGVicmF0aW9ufGVufDF8fHx8MTc2NjMxMjE0OXww&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 3,
-      title: 'Heritage Photos',
-      date: '1950s - 1990s',
-      photoCount: 78,
-      coverImage: 'https://images.unsplash.com/photo-1763154431744-67550662000d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbGQlMjBmYW1pbHklMjBwaG90b3MlMjB2aW50YWdlfGVufDF8fHx8MTc2NjMxMjE1MHww&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 4,
-      title: 'Children Gathering 2024',
-      date: 'September 2024',
-      photoCount: 34,
-      coverImage: 'https://images.unsplash.com/photo-1765248150485-a5efde8d2cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBnYXRoZXJpbmclMjBoZXJpdGFnZXxlbnwxfHx8fDE3NjYzMTIxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 5,
-      title: 'Eid Celebrations',
-      date: 'April 2024',
-      photoCount: 56,
-      coverImage: 'https://images.unsplash.com/photo-1761233976686-f43410a4f5d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjB0cmVlJTIwZ2VuZXJhdGlvbnN8ZW58MXx8fHwxNzY2MzEyMTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 6,
-      title: 'Elder Appreciation Day',
-      date: 'March 2024',
-      photoCount: 29,
-      coverImage: 'https://images.unsplash.com/photo-1544863308-ae78b44e143c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjByZXVuaW9uJTIwd2FybXxlbnwxfHx8fDE3NjYzMTIxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-  ];
+ const albums = [
+  {
+    id: "family-reunion-2025",
+    title: "Family Reunion 2025",
+    date: "January 2025",
+    coverImage: img1,
+    photos: [img1, img2, img3, img4],
+  },
+  {
+    id: "walimah-ahmad-siti",
+    title: "Walimah - Ahmad & Siti",
+    date: "December 2024",
+    coverImage: img5,
+    photos: [img5, img6, img7, img8],
+  },
+  {
+    id: "wedding-walimah",
+    title: "wedding-walimah",
+    date: "1950s - 1990s",
+    coverImage: img9,
+    photos: [img9, img10, img11, img12],
+  },
+  {
+    id: "Danmaliki Jnr's Walimah",
+    title: "Danmaliki Jnr's Walimah",
+    date: "1950s - 1990s",
+    coverImage: img13,
+    photos: [img13, img14, img15, img16],
+  },
+  {
+    id: "Eid Walimah",
+    title: "Eid Walimah",
+    date: "2023 - 2024s",
+    coverImage: img17,
+    photos: [img17, img18, img19, img20],
+  },
+];
+
 
   return (
     <div className="min-h-screen py-12 px-4">
@@ -59,33 +74,55 @@ export function GalleryPage() {
         </div>
 
         {/* Albums Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {albums.map((album) => (
-            <div
-              key={album.id}
-              className="group cursor-pointer rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all hover:-translate-y-1 bg-card border border-border"
-            >
-              <div className="relative h-64 overflow-hidden">
-                <img
-                  src={album.coverImage}
-                  alt={album.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <div className="flex items-center gap-2 mb-2">
-                    <ImageIcon size={20} />
-                    <span className="text-sm">{album.photoCount} photos</span>
-                  </div>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="mb-2">{album.title}</h3>
-                <p className="text-sm text-muted-foreground">{album.date}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+       {albums.map((album) => (
+ <Link
+  to={`/gallery/${album.id}`}
+  key={album.id}
+  className="
+    group
+    rounded-xl
+    overflow-hidden
+    bg-card
+    border
+    border-border
+    shadow-sm
+    hover:shadow-lg
+    transition-all
+    hover:-translate-y-1
+  "
+>
+  {/* Image Area */}
+  <div className="relative bg-muted flex items-center justify-center aspect-[4/3] p-3">
+    <img
+      src={album.coverImage}
+      alt={album.title}
+      className="
+        max-h-full
+        max-w-full
+        object-contain
+        rounded-lg
+        transition-transform
+        duration-300
+        group-hover:scale-105
+      "
+    />
+
+    {/* Photo Count Badge */}
+    <div className="absolute top-3 right-3 bg-black/60 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1">
+      <ImageIcon size={14} />
+      {album.photos.length}
+    </div>
+  </div>
+
+  {/* Text Area */}
+  <div className="p-5 text-center">
+    <h3 className="mb-1">{album.title}</h3>
+    <p className="text-sm text-muted-foreground">{album.date}</p>
+  </div>
+</Link>
+
+))}
+
 
         {/* Upload Section */}
         <section className="mt-16 text-center bg-muted rounded-xl p-12">

@@ -8,6 +8,7 @@ import { GalleryPage } from './pages/GalleryPage';
 import { StoriesPage } from './pages/StoriesPage';
 import { NewsPage } from './pages/NewsPage';
 import { DirectoryPage } from './pages/DirectoryPage';
+import {AlbumPage} from './pages/AlbumPage';
 
 function Footer() {
   return (
@@ -36,6 +37,8 @@ export default function App() {
             <Route path="/news" element={<NewsPage />} />
             <Route path="/directory" element={<DirectoryPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/gallery/:albumId" element={<AlbumPage />} />
+
           
             
             
